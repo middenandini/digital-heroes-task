@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word & Character Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word & Character Counter</h1>
+        <p class="subtitle">Type or paste your text below to analyze it instantly.</p>
+        
+        <textarea id="text-input" placeholder="Start typing here..."></textarea>
+        
+        <div class="stats-container">
+            <div class="stat-box">
+                <span id="word-count" class="stat-number">0</span>
+                <span class="stat-label">Words</span>
+            </div>
+            <div class="stat-box">
+                <span id="char-count" class="stat-number">0</span>
+                <span class="stat-label">Characters</span>
+            </div>
+        </div>
+
+        <button id="clear-btn">Clear Text</button>
+
+        <hr>
+
+        <!-- Mandatory Developer Info & Link -->
+        <div class="footer-info">
+            <p><strong>Developer:</strong> Midde Nandini</p>
+            <p><strong>Email:</strong> your.email@example.com</p> <!-- ⚠️ REPLACE WITH YOUR REAL EMAIL -->
+            <a href="https://digitalheroesco.com" target="_blank" class="dh-button">Built for Digital Heroes</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
